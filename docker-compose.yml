@@ -1,0 +1,37 @@
+version: "3"
+
+services:
+  blacklab:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      target: server
+      
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./blacklab-data:/data/blacklab/indexes
+
+  blacklab-indexer:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      target: indexer 
+
+    volumes:
+      - ./indexer/tei-data:/indexer/tei-data
+      - ./blacklab-data:/indexer/blacklab-data
+
+    command: bash -c "bash indexer.sh create"
+  
+  nginx:
+    image: "nginx:stable"
+    depends_on:
+      - blacklab
+    links:
+      - blacklab
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - "./deployment/nginx.conf:/etc/nginx/nginx.conf"
