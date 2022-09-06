@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: Dockerfile
       target: server
-      
+
     ports:
       - "8080:8080"
     volumes:
@@ -16,14 +16,14 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-      target: indexer 
+      target: indexer
 
     volumes:
       - ./indexer/tei-data:/indexer/tei-data
       - ./blacklab-data:/indexer/blacklab-data
 
     command: bash -c "bash indexer.sh"
-  
+
   nginx:
     image: "nginx:stable"
     depends_on:
