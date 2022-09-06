@@ -22,8 +22,7 @@ services:
       - ./indexer/tei-data:/indexer/tei-data
       - ./blacklab-data:/indexer/blacklab-data
 
-    # `bash indexer.sh add` (after creating new indexes)
-    command: bash -c "bash indexer.sh create"
+    command: bash -c "bash indexer.sh"
   
   nginx:
     image: "nginx:stable"
