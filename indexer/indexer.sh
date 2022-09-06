@@ -3,7 +3,7 @@ function printGreen() {
 }
 
 function generateIndex() {
-    java -cp "./WEB-INF/lib/*" nl.inl.blacklab.tools.IndexTool $1 $2 ./tei-data/ ./formats/ptt.blf.yaml
+    java -cp "./WEB-INF/lib/*" nl.inl.blacklab.tools.IndexTool $1 $2 ./tei-data/ ./formats/custom.blf.yaml
 }
 
 indexDir=./blacklab-data
