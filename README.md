@@ -2,10 +2,6 @@
 
 This repository demonstrates how to build Blacklab corpus via Docker and Nginx.
 
-<p align="center">
-    <img src="./assest/demo.png" width="100%" height="100%" />
-</p>
-
 ## **Overview of the Architecture**
 
 ```mermaid
@@ -18,13 +14,9 @@ subgraph DOCKER [Docker]
 
   D --> N{"Load Balancer <br/> (Nginx)"}
 
-  N <==> B["/corpus-frontend"]
   N <==> C["/blacklab-server"]
 
-
   C <==> I
-  B <==> C
-
 
   subgraph Indexes
         I[("<div style='padding: 0rem 0.5rem;'>Indexes  <br/>(by Indexer)</div>  ")]
