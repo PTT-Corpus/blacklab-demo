@@ -59,7 +59,7 @@ server\
  |-- ...
 ```
 
-> Inside the folder contains two types of data (i.e. [PTT](https://term.ptt.cc/) and [Dcard](https://www.dcard.tw/f). You can delete them anytime.)
+> Inside the folder contains two types of data (i.e. [PTT](https://term.ptt.cc/) and [Dcard](https://www.dcard.tw/f)). You can delete them anytime.
 
 We assume here that you are familiar with the BlackLab indexing process; see [indexing with BlackLab](https://inl.github.io/BlackLab/indexing-with-blacklab.html) to learn more.
 
