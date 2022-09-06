@@ -1,0 +1,450 @@
+<TEI.2>
+    <teiHeader>
+        <metadata name="media">ptt</metadata>
+        <metadata name="author">jasonyk (幸福的味道....)</metadata>
+        <metadata name="post_id">M.1183186255.A.0EC</metadata>
+        <metadata name="year">2007</metadata>
+        <metadata name="board">Soft_Job</metadata>
+    </teiHeader>
+    <text>
+        <title author="jasonyk (幸福的味道....)">
+        <s>
+        <w type="PARENTHESISCATEGORY">[</w>
+<w type="VB">請益</w>
+<w type="PARENTHESISCATEGORY">]</w>
+<w type="WHITESPACE"> </w>
+<w type="VK">需不需</w>
+<w type="VC">進修</w>
+<w type="FW">LINUX</w>
+<w type="QUESTIONCATEGORY">?</w>
+        </s>
+        </title>
+        <body author="jasonyk (幸福的味道....)">
+                <s>
+<w type="Nh">我</w>
+<w type="P">從</w>
+<w type="Na">學生</w>
+<w type="Na">時代</w>
+<w type="P">到</w>
+<w type="VA">工作</w>
+<w type="Neu">一</w>
+<w type="Nf">年</w>
+<w type="Neqb">多</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="D">都</w>
+<w type="SHI">是</w>
+<w type="VA">走</w>
+<w type="Nb">微軟</w>
+<w type="Na">路線</w>
+<w type="DE">的</w>
+</s>
+<s>
+<w type="FW">AJAX</w>
+<w type="Cab">等等</w>
+<w type="D">都</w>
+<w type="Nb">微軟</w>
+<w type="DE">的</w>
+<w type="Na">工具</w>
+<w type="D">都</w>
+<w type="D">還</w>
+<w type="Dfa">滿</w>
+<w type="VJ">熟悉</w>
+<w type="DE">的</w>
+</s>
+<s>
+<w type="Nd">現在</w>
+<w type="Nep">這</w>
+<w type="Nc">公司</w>
+<w type="D">也</w>
+<w type="D">都</w>
+<w type="SHI">是</w>
+<w type="P">用</w>
+<w type="Nb">微軟</w>
+<w type="DE">的</w>
+<w type="Na">工具</w>
+<w type="Na">平台</w>
+<w type="Neqa">較多</w>
+</s>
+<s>
+<w type="Nd">最近</w>
+<w type="VC">看</w>
+<w type="Di">了</w>
+<w type="Neqa">一些</w>
+<w type="VH">大</w>
+<w type="Nc">公司</w>
+<w type="DE">的</w>
+<w type="VA">求職</w>
+<w type="Na">條件</w>
+</s>
+<s>
+<w type="Neqa">有</w>
+<w type="Nf">些</w>
+<w type="D">都</w>
+<w type="VF">要求</w>
+<w type="D">會</w>
+<w type="FW">Linux</w>
+<w type="Caa">或</w>
+<w type="FW">Unix</w>
+</s>
+<s>
+<w type="Nd">以前</w>
+<w type="D">也</w>
+<w type="V_2">有</w>
+<w type="VC">接觸</w>
+<w type="Neqa">一點點</w>
+<w type="Nep">這</w>
+<w type="Na">系統</w>
+<w type="DE">的</w>
+<w type="Na">東西</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="Cbb">但</w>
+<w type="D">從來</w>
+<w type="VJ">沒有</w>
+<w type="VH">認真</w>
+<w type="VC">學習</w>
+<w type="Di">過</w>
+</s>
+<s>
+<w type="Nh">自己</w>
+<w type="V_2">有</w>
+<w type="Nf">個</w>
+<w type="Na">疑問</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="P">對</w>
+<w type="Neu">一</w>
+<w type="Nf">位</w>
+<w type="FW">MIS</w>
+<w type="Na">程式</w>
+<w type="Na">設計師</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="FW">Linux</w>
+<w type="D">要</w>
+<w type="D">會</w>
+<w type="VCL">到</w>
+<w type="Nep">什麼</w>
+<w type="Na">程度</w>
+<w type="QUESTIONCATEGORY">?</w>
+</s>
+<s>
+<w type="SHI">是</w>
+<w type="D">不</w>
+<w type="SHI">是</w>
+<w type="P">跟</w>
+<w type="Nb">微軟</w>
+<w type="FW">Server</w>
+<w type="VH">一樣</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="Da">只</w>
+<w type="VK">需要</w>
+<w type="D">會</w>
+<w type="VC">管理</w>
+<w type="FW">server</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="P">如</w>
+<w type="D">如何</w>
+<w type="VC">架</w>
+<w type="FW">web</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="Na">FTP</w>
+<w type="Cab">等等</w>
+</s>
+<s>
+<w type="Nh">我</w>
+<w type="VK">覺得</w>
+<w type="Nh">我</w>
+<w type="Dfa">比較</w>
+<w type="VJ">欠缺</w>
+<w type="Nep">這</w>
+<w type="Na">方面</w>
+<w type="DE">的</w>
+<w type="Na">經驗</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="Da">剛好</w>
+<w type="Neqa">滿多</w>
+<w type="Nc">公司</w>
+<w type="D">都</w>
+<w type="P">在</w>
+<w type="VC">使用</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+<s>
+<w type="SHI">是</w>
+<w type="D">不可以</w>
+<w type="VD">給</w>
+<w type="Nh">我</w>
+<w type="Neqa">一些</w>
+<w type="Na">建議</w>
+<w type="QUESTIONCATEGORY">?</w>
+</s>
+        </body>
+        <comment author="in2" c_type="pos">
+<s>
+<w type="Cbb">既然</w>
+<w type="D">都</w>
+<w type="VC">用</w>
+<w type="FW">VB</w>
+<w type="COMMACATEGORY">,</w>
+<w type="FW"> .NET</w>
+<w type="COMMACATEGORY">,</w>
+<w type="FW"> ASP</w>
+<w type="COMMACATEGORY">,</w>
+<w type="FW"> C#</w>
+<w type="T">了</w>
+<w type="COMMACATEGORY">,</w>
+<w type="WHITESPACE"> </w>
+<w type="Nep">那</w>
+<w type="D">就</w>
+<w type="VF">繼續</w>
+<w type="VA">走</w>
+<w type="FW"> ms </w>
+<w type="Na">路線</w>
+<w type="T">吧</w>
+<w type="WHITESPACE"> </w>
+<w type="FW">XD</w>
+</s>
+</comment>
+
+<comment author="in2" c_type="pos">
+<s>
+<w type="D">何苦</w>
+<w type="D">要</w>
+<w type="VC">換</w>
+<w type="Na">跑道</w>
+<w type="WHITESPACE"> </w>
+<w type="COLONCATEGORY">:</w>
+<w type="FW">p</w>
+</s>
+</comment>
+
+<comment author="ILuvDumpling" c_type="pos">
+<s>
+<w type="P">像</w>
+<w type="FW">java</w>
+<w type="VC">寫</w>
+<w type="DE">的</w>
+<w type="FW">server</w>
+<w type="Na">程式</w>
+<w type="Neqa">很多</w>
+<w type="P">到</w>
+<w type="Nd">最後</w>
+<w type="D">都</w>
+<w type="SHI">是</w>
+<w type="P">在</w>
+<w type="FW">linux</w>
+<w type="Ncd">上</w>
+<w type="VA">跑</w>
+</s>
+</comment>
+
+<comment author="Harifucks" c_type="pos">
+<s>
+<w type="VE">建議</w>
+<w type="Nh">你</w>
+<w type="VJ">專精</w>
+<w type="Nb">微軟</w>
+<w type="DE">的</w>
+<w type="Na">東西</w>
+<w type="D">就</w>
+<w type="FW">OK</w>
+<w type="T">了</w>
+</s>
+</comment>
+
+<comment author="ILuvDumpling" c_type="neu">
+<s>
+<w type="FW">apache</w>
+<w type="PAUSECATEGORY">、</w>
+<w type="FW">tomcat</w>
+<w type="WHITESPACE"> </w>
+<w type="Neqa">這些</w>
+<w type="D">都</w>
+<w type="SHI">是</w>
+<w type="D">常</w>
+<w type="VE">看到</w>
+<w type="DE">的</w>
+</s>
+</comment>
+
+<comment author="ILuvDumpling" c_type="neu">
+<s>
+<w type="Nh">我</w>
+<w type="VE">猜</w>
+<w type="Nh">你</w>
+<w type="VC">應徵</w>
+<w type="DE">的</w>
+<w type="Nc">公司</w>
+<w type="WHITESPACE"> </w>
+<w type="Nh">他們</w>
+<w type="A">現有</w>
+<w type="Na">程式</w>
+<w type="D">都</w>
+<w type="SHI">是</w>
+<w type="P">在</w>
+<w type="Nep">那</w>
+<w type="Ncd">上面</w>
+<w type="VA">跑</w>
+<w type="COMMACATEGORY">,</w>
+<w type="Cbb">所以</w>
+</s>
+</comment>
+
+<comment author="Harifucks" c_type="pos">
+<s>
+<w type="D">不</w>
+<w type="VK">需要</w>
+<w type="P">為</w>
+<w type="FW">Linux</w>
+<w type="Cbb">而</w>
+<w type="FW">Linux</w>
+</s>
+</comment>
+
+<comment author="ILuvDumpling" c_type="neu">
+<s>
+<w type="Dfa">最</w>
+<w type="Da">起碼</w>
+<w type="Nh">你</w>
+<w type="D">要</w>
+<w type="VK">懂得</w>
+<w type="Neqa">一些</w>
+<w type="A">基本</w>
+<w type="Na">指令</w>
+</s>
+</comment>
+
+<comment author="dearpuppy" c_type="pos">
+<s>
+<w type="Na">長線</w>
+<w type="VC">投資</w>
+<w type="PERIODCATEGORY">.</w>
+<w type="PERIODCATEGORY">.</w>
+<w type="PERIODCATEGORY">.</w>
+</s>
+</comment>
+
+<comment author="leicheong" c_type="pos">
+<s>
+<w type="Na">長線</w>
+<w type="VC">投資</w>
+<w type="PERIODCATEGORY">.</w>
+<w type="PERIODCATEGORY">.</w>
+<w type="PERIODCATEGORY">.</w>
+<w type="WHITESPACE"> </w>
+<w type="D">會</w>
+<w type="Neqa">多一點</w>
+<w type="Na">東西</w>
+<w type="D">總是</w>
+<w type="VH">好</w>
+<w type="T">的</w>
+<w type="PERIODCATEGORY">.</w>
+<w type="WHITESPACE"> </w>
+<w type="Cbb">不過</w>
+<w type="D">先</w>
+<w type="P">幫</w>
+<w type="Na">主力</w>
+<w type="DE">的</w>
+</s>
+</comment>
+
+<comment author="leicheong" c_type="neu">
+<s>
+<w type="Na">技能</w>
+<w type="VC">打好</w>
+<w type="Na">基礎</w>
+<w type="D">再</w>
+<w type="VE">說</w>
+<w type="T">吧</w>
+<w type="PERIODCATEGORY">.</w>
+</s>
+</comment>
+
+<comment author="leicheong" c_type="neu">
+<s>
+<w type="Na">基本</w>
+<w type="Ncd">上</w>
+<w type="Na">程式</w>
+<w type="Na">語言</w>
+<w type="D">不</w>
+<w type="SHI">是</w>
+<w type="FW">Java/PHP</w>
+<w type="Cba">的話</w>
+<w type="COMMACATEGORY">,</w>
+<w type="WHITESPACE"> </w>
+<w type="Cbb">除非</w>
+<w type="VL">有意</w>
+<w type="VC">做</w>
+<w type="Na">網管</w>
+<w type="COMMACATEGORY">,</w>
+</s>
+</comment>
+
+<comment author="leicheong" c_type="neu">
+<s>
+<w type="Cbb">否則</w>
+<w type="D">不</w>
+<w type="VE">建議</w>
+<w type="VC">花</w>
+<w type="Neqa">太多</w>
+<w type="Na">時間</w>
+<w type="PERIODCATEGORY">.</w>
+</s>
+</comment>
+
+<comment author="leicheong" c_type="pos">
+<s>
+<w type="Cbb">除非</w>
+<w type="P">像</w>
+<w type="Nh">我</w>
+<w type="VH">這樣</w>
+<w type="D">要</w>
+<w type="P">把</w>
+<w type="Nd">目前</w>
+<w type="P">在</w>
+<w type="VC">用</w>
+<w type="DE">的</w>
+<w type="Na">網頁</w>
+<w type="VC">改到</w>
+<w type="FW">Mono</w>
+<w type="Ncd">上</w>
+<w type="VA">跑</w>
+<w type="COMMACATEGORY">,</w>
+<w type="WHITESPACE"> </w>
+<w type="Nep">那</w>
+<w type="D">先</w>
+<w type="VK">了解</w>
+</s>
+</comment>
+
+<comment author="leicheong" c_type="neu">
+<s>
+<w type="Neqa">一點</w>
+<w type="FW">Linux</w>
+<w type="DE">的</w>
+<w type="Na">東西</w>
+<w type="D">會</w>
+<w type="V_2">有</w>
+<w type="Na">好處</w>
+<w type="PERIODCATEGORY">... </w>
+<w type="COLONCATEGORY">:</w>
+<w type="ETCCATEGORY">P</w>
+</s>
+</comment>
+
+    </text>
+</TEI.2>
