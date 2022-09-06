@@ -23,7 +23,7 @@ FROM tomcat:9.0 as server
 
 COPY --from=base /app/blacklab-server-3.0.0.war  /usr/local/tomcat/webapps/blacklab-server.war
 
-ADD ./server/backend/blacklab-server.yaml /etc/blacklab/
+ADD ./server/blacklab-server.yaml /etc/blacklab/
 
 EXPOSE 8080
 
