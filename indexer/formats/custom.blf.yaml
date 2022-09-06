@@ -16,9 +16,7 @@ documentPath: //TEI.2
 # Annotated, CQL-searchable fields (also called "complex fields").
 # We usually have just one, named "contents".
 annotatedFields:
-
   contents:
-
     # How to display the field in the interface (optional)
     displayName: Contents
 
@@ -30,32 +28,29 @@ annotatedFields:
     containerPath: .//text
 
     # What are our word tags? (relative to container)
-    wordPath: .//w     # (body geldt niet voor OpenSonar, maar ter illustratie)
+    wordPath: .//w # (body geldt niet voor OpenSonar, maar ter illustratie)
     # Punctuation between word tags (relative to container)
     # punctPath: .//text()[not(ancestor::w)]   # = "all text nodes (under containerPath) not inside a <w/> element"
-    
+
     annotations:
-    - name: word
-      displayName: Word
-      valuePath: .
-    - name: pos
-      displayName: PoS
-      valuePath: "@type"
+      - name: word
+        displayName: Word
+        valuePath: .
+      - name: pos
+        displayName: PoS
+        valuePath: "@type"
 
     # XML tags within the content we'd like to index
     # (relative to container)
     inlineTags:
-    - path: .//s   # Sentence
-    - path: .//title  # post_type
-    - path: .//body  # post_type
-    - path: .//comment  # post_type
-
-
-
+      - path: .//s # Sentence
+      - path: .//title # post_type
+      - path: .//body # post_type
+      - path: .//comment # post_type
 
 metadata:
-    containerPath: teiHeader
-    fields:
+  containerPath: teiHeader
+  fields:
     - name: media
       uiType: text
       valuePath: metadata[@name="media"]
@@ -67,7 +62,7 @@ metadata:
     - name: year
       uiType: range
       valuePath: metadata[@name="year"]
-      type: untokenized 
+      type: untokenized
     - name: doc_id
       uiType: text
       valuePath: metadata[@name="post_id"]
@@ -77,13 +72,11 @@ metadata:
       valuePath: metadata[@name="board"]
       type: untokenized
 
-
 corpusConfig:
-
-   # Metadata fields with a special meaning
-    specialFields:
-        pidField: doc_id           # unique persistent identifier, used for document lookups, etc.
-        titleField: title      # used to display document title in interface
-        authorField: author    # used to display author in interface
-        dateField: year        # used to display document date in interface
-        mediaField: media 
+  # Metadata fields with a special meaning
+  specialFields:
+    pidField: doc_id # unique persistent identifier, used for document lookups, etc.
+    titleField: title # used to display document title in interface
+    authorField: author # used to display author in interface
+    dateField: year # used to display document date in interface
+    mediaField: media
