@@ -8,10 +8,12 @@ function generateIndex() {
 
 indexDir=./blacklab-data
  
+# if blacklab-data folder exists, use `add` command
 if [ -d "${indexDir}" ]; then 
     generateIndex "add" $indexDir
 fi 
 
+# if blacklab-data folder exists, use `create` command
 if [ ! -d "$Directory" ]; then
     generateIndex "create" $indexDir
 fi 
