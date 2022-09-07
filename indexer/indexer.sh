@@ -11,12 +11,10 @@ indexDir=./blacklab-data
 
 # if blacklab-data folder has indexes, use `add` command
 if [ "$(ls -A $indexDir)" ]; then
-    echo 'add!'
     generateIndex "add" $indexDir
     printGreen "Blacklab indexes generated: ${indexDir}"
 else
     # if blacklab-data folder is empty, use `create` command
-    echo 'create!'
     generateIndex "create" $indexDir
     printGreen "Blacklab indexes generated: ${indexDir}"
 fi
