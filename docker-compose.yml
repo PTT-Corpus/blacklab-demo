@@ -10,7 +10,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./blacklab-data:/data/blacklab/indexes
+      - ./blacklab-indexes:/data/blacklab/indexes
 
   blacklab-indexer:
     build:
@@ -20,7 +20,7 @@ services:
 
     volumes:
       - ./indexer/tei-data:/indexer/tei-data
-      - ./blacklab-data:/indexer/blacklab-data
+      - ./blacklab-indexes:/indexer/blacklab-indexes
 
     command: bash -c "bash indexer.sh"
 
