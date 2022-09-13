@@ -86,7 +86,7 @@ docker compose down
 Then add your new xml files to the folder `./indexer/tei-data`, and run:
 
 ```bash
-docker compose up --force-recreate
+docker compose up
 ```
 
 ## Contact Me
