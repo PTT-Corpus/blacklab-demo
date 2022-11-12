@@ -25,6 +25,7 @@ annotatedFields:
       - name: word
         displayName: Word
         valuePath: .
+        sensitivity: sensitive_insensitive
       - name: pos
         displayName: PoS
         valuePath: "@type"
