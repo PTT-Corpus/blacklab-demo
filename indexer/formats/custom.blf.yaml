@@ -76,7 +76,7 @@ metadata:
       type: numeric
 
 corpusConfig:
-  displayNamedisplayName: Taiwan Social Media Corpus
+  displayName: Taiwan Social Media Corpus
 
   specialFields:
     mediaField: media
