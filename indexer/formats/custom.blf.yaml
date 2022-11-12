@@ -49,26 +49,31 @@ metadata:
       uiType: text
       valuePath: metadata[@name="media"]
       type: untokenized
+
     - name: board
       uiType: select
       valuePath: metadata[@name="board"]
       type: untokenized
-    - name: doc_id
+
+    - name: docId
       uiType: text
       valuePath: metadata[@name="post_id"]
       type: untokenized
+
     - name: title
       uiType: text
       valuePath: metadata[@name="title"]
       type: untokenized
+
     - name: author
       uiType: text
       valuePath: metadata[@name="author"]
       type: untokenized
+
     - name: year
       uiType: range
       valuePath: metadata[@name="year"]
-      type: untokenized 
+      type: numeric
 
 corpusConfig:
   specialFields:
