@@ -1,14 +1,3 @@
-# For displaying in user interface (optional)
-displayName: "TEI P4, contents in text, @type as PoS"
-
-# For describing input format in user interface (optional)
-description: A TEI P4 variant. The text element will be indexed as annotated contents. PoS tags should be in the type attribute.
-
-# (Optional, informational)
-# content, metadata or mixed?
-# (not used by BlackLab, purely informational for the frontend application)
-type: content
-
 # What element starts a new document?
 # (the only absolute XPath; the rest is relative)
 documentPath: //TEI.2
@@ -36,6 +25,7 @@ annotatedFields:
       - name: word
         displayName: Word
         valuePath: .
+        sensitivity: sensitive_insensitive
       - name: pos
         displayName: PoS
         valuePath: "@type"
@@ -44,9 +34,13 @@ annotatedFields:
     # (relative to container)
     inlineTags:
       - path: .//s # Sentence
+        displayAs: sentence
       - path: .//title # post_type
+        displayAs: title
       - path: .//body # post_type
+        displayAs: body
       - path: .//comment # post_type
+        displayAs: comment
 
 metadata:
   containerPath: teiHeader
@@ -55,31 +49,38 @@ metadata:
       uiType: text
       valuePath: metadata[@name="media"]
       type: untokenized
+
     - name: board
       uiType: select
       valuePath: metadata[@name="board"]
       type: untokenized
-    - name: doc_id
+
+    - name: docId
       uiType: text
       valuePath: metadata[@name="post_id"]
       type: untokenized
+
     - name: title
       uiType: text
       valuePath: metadata[@name="title"]
       type: untokenized
+
     - name: author
       uiType: text
       valuePath: metadata[@name="author"]
       type: untokenized
+
     - name: year
       uiType: range
       valuePath: metadata[@name="year"]
-      type: untokenized 
+      type: numeric
 
 corpusConfig:
+  displayNamedisplayName: Taiwan Social Media Corpus
+
   specialFields:
     mediaField: media
-    pidField: doc_id # unique persistent identifier, used for document lookups, etc.
+    pidField: docId # unique persistent identifier, used for document lookups, etc.
     titleField: title # used to display document title in interface
     authorField: author # used to display author in interface
     dateField: year # used to display document date in interface
