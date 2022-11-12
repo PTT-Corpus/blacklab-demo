@@ -76,9 +76,11 @@ metadata:
       type: numeric
 
 corpusConfig:
+  displayNamedisplayName: Taiwan Social Media Corpus
+
   specialFields:
     mediaField: media
-    pidField: doc_id # unique persistent identifier, used for document lookups, etc.
+    pidField: docId # unique persistent identifier, used for document lookups, etc.
     titleField: title # used to display document title in interface
     authorField: author # used to display author in interface
     dateField: year # used to display document date in interface
