@@ -34,9 +34,13 @@ annotatedFields:
     # (relative to container)
     inlineTags:
       - path: .//s # Sentence
+        displayAs: sentence
       - path: .//title # post_type
+        displayAs: title
       - path: .//body # post_type
+        displayAs: body
       - path: .//comment # post_type
+        displayAs: comment
 
 metadata:
   containerPath: teiHeader
