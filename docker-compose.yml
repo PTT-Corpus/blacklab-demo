@@ -2,33 +2,15 @@ version: "3"
 
 services:
   blacklab:
-    build:
-      context: ./
-      dockerfile: Dockerfile
-      target: server
-
-    ports:
-      - "8080:8080"
+    build: .
+    command: bash -c "/data/indexer/scripts/create.sh && catalina.sh run"
     volumes:
-      - ./blacklab-indexes:/data/blacklab/indexes
-
-  blacklab-indexer:
-    build:
-      context: ./
-      dockerfile: Dockerfile
-      target: indexer
-
-    volumes:
-      - ./indexer/tei-data:/indexer/tei-data
-      - ./blacklab-indexes:/indexer/blacklab-indexes
-
-    command: bash -c "bash indexer.sh"
+      - ./blacklab-indexes:/data/indexes
+      - ./indexer/data:/data/indexer/data
 
   nginx:
     image: "nginx:stable"
     depends_on:
-      - blacklab
-    links:
       - blacklab
     restart: always
     ports:
