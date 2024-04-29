@@ -2,10 +2,6 @@
 
 This repository demonstrates how to build Blacklab corpus via Docker and Nginx.
 
-<p align="center">
-    <img src="./assest/demo.png" width="100%" height="100%" />
-</p>
-
 ## **Overview of the Architecture**
 
 ```mermaid
